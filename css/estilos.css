@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	scroll-behavior: smooth;
+}
+
+nav{
+	position: fixed;
+	width: 100%;
+	transition: 1s;
+}
+
+nav ul{
+	list-style: none;
+	text-align: center;
+}
+
+nav ul li{
+	display: inline-block;
+	padding : 20px ;
+	font-size: 1.5rem;
+	transition: .5s;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li:hover{
+	transition: .5s;
+	padding : 10px 20px 10px 20px;
+	background: wheat;
+	border : 0 solid white;
+	transform: scale(1.2);
+}
+
+header{
+    background: 
+	linear-gradient(rgba(158,133,64,0.6),rgba(100,100,100,0.2),rgba(18,23,97,0.6)),
+	url(../images/fondo.jpg);
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.contenedor{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.contenedor-titulo{
+	display: flex;
+	justify-content: center; /*Alinea el contenido en el eje x*/
+	align-items: center; /*Alinea el contenido en el eje y*/
+	height: 100vh;
+}
+
+.contenedor-titulo h1{
+	font-size: 60px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+
+	padding: 50px 70px;
+	border: 10px double white;
+
+}
+
+article{
+	padding-top: 50px;
+	text-align :center;
+	margin-bottom: 50px;
+
+	border-bottom: 5px dotted rgba(25,25,25,.7);
+	padding-bottom: 30px;
+}
+
+article h2{
+	font-size: 32px;
+	padding-bottom: 30px;
+}
+
+article p{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+article blockquote{
+	font-size: 18px;
+}
+
+div.contenedor-tabla{
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+
+div.contenedor-imagen{
+	width: 50%;
+	display: inline-block;
+}
+
+div.contenedor-imagen img{
+	width: 100%;
+}
+
+table{
+	width: 100%;
+	text-align: center;
+}
+
+table td{
+	padding: 20px 20px;
+}
+
+.tabla{
+	margin-bottom: 20px;
+}
+
+.contactame{
+	background: url(../images/fondo2.jpg) fixed;
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0;
+}
+
+.contacto-texto{
+	text-align: center;
+}
+
+.contacto-texto h3{
+	font-size: 32px;
+	color: white;
+	padding : 30px 20px;
+}
+
+.contacto-texto button{
+	padding: 15px 55px;
+	border: none ;
+	border-radius: 10px;
+	background-color: salmon;
+	color: white;
+	font-size: 20px;
+	transition: 1s;
+}
+
+.contacto-texto button:hover{
+	transition: 1s;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+footer{
+	height: 50px;
+	background : gainsboro;
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
